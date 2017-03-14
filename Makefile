@@ -6,6 +6,7 @@ LIBSUFFIX =.so
 INCS =-I/usr/local/include -I/usr/include
 LIBSDIR =-L/usr/local/lib -L/usr/lib 
 
+
 # basic setup
 CC =g++
 LIBS =$(LIBSDIR) libluajit-5.1.a
